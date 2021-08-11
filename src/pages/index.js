@@ -11,8 +11,10 @@ const IndexPage = () => {
     <main >
     <title>RicciDylanAndrada</title>
     <Header/>
+    <SideBar/>  
+
     <Body/>
-    <SideBar/>
+
       
     </main>
   )

@@ -1,3 +1,16 @@
-h1{
-    color:blue
+
+.sidebar{
+    background-color:#404040;
+    padding:10px;
+color: blue;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    
+}
+.icon{
+    margin-left: 3px;
 }
