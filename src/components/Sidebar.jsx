@@ -27,9 +27,9 @@ const SideBar=()=>{
 
   <div className= "socials">
 
-        <a>    <FontAwesomeIcon  color="white" icon ={faGithub}  inverse size= "2x"/></a>
-    <a><FontAwesomeIcon  color="white" icon ={faLinkedin}  inverse size= "2x"/></a>
-    <a>  <FontAwesomeIcon  color="white" icon ={faInstagram}  inverse   size= "2x"/></a>
+        <a>    <FontAwesomeIcon inverse transform="shrink-5" color="white" icon ={faGithub}   size= "2x"/></a>
+    <a><FontAwesomeIcon  color="white" icon ={faLinkedin} transform="shrink-5"  inverse size= "2x"/></a>
+    <a>  <FontAwesomeIcon  color="white" icon ={faInstagram} transform="shrink-5 " inverse   size= "2x"/></a>
 
 
 
