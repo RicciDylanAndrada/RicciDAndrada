@@ -1,15 +1,42 @@
-h1{    color:purple;
+h1{    color:white;
+    font-size: 4.2rem;
+}
+h2{
+    color:white;
+    font-size: 2rem;
+}
+p{
+    color:white
 }
 body{
-    background-color: purple;
+    background-color: #404040;
     color: red;
 
 }
+.nav{
+    width: 5000px;
+}
+.intro{
+    padding:80px;
+    height: 500px;
+    position: relative;
+    background-color: #404040;
+
+
+
+}
+
+#experience{
+    background-color: white;
+    height: 500px;
+    position: relative;
+}
+
 .body{
-    background-color: red;
+    background-color: #404040;
     color: red;
     height: 100%;
-    position: fixed;
+    position: absolute;
     left: 100px;
     width: 100%;
 }

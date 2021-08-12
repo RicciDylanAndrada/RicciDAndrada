@@ -10,7 +10,6 @@ const IndexPage = () => {
   return (
     <main >
     <title>RicciDylanAndrada</title>
-    <Header/>
     <SideBar/>  
 
     <Body/>
