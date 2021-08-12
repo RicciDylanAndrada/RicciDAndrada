@@ -9,8 +9,39 @@ color: blue;
     z-index: 1;
     left: 0;
     top:0;
+    display: flex;
+    
+}
+
+.sidebar1{
+    background-color:#404040;
+    padding:10px;
+color: blue;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top:60px;
+    display: flex;
     
 }
 .icon{
     margin-left: 3px;
+}
+
+
+a{
+    color: purple;
+    
+}
+.socials{
+    align-items: center;
+    text-align: center;
+    right:1px;
+    margin-right:1px ;
+    flex-direction: column;
+
+    margin-top:200px;
+    line-height: 100px;
 }

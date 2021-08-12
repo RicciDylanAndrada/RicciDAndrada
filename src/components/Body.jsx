@@ -1,6 +1,10 @@
 import * as React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Nav,Navbar,NavDropdown,Button } from "react-bootstrap";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { faGithub,faFacebook} from "@fortawesome/free-brands-svg-icons"
+
+
 
 import "../styles/index.css"
 const Body = () =>{
@@ -44,6 +48,7 @@ return (
 
 
             <section id="experience">
+
 <h1>Hello</h1>
             </section>
             </div>
