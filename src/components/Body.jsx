@@ -2,7 +2,10 @@ import * as React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Nav,Navbar,NavDropdown,Button } from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import { faGithub,faFacebook} from "@fortawesome/free-brands-svg-icons"
+import { faGithub,faFacebook,faReact,faJsSquare,faHtml5,faNpm,faPython,faJava,faCss3,faNodeJs
+
+} from "@fortawesome/free-brands-svg-icons"
+import Card from "./Card"
 
 
 
@@ -11,11 +14,6 @@ const Body = () =>{
 
 return (
  
-
-
-
-
-        
             <div>
             <Navbar collapseOnSelect expand="lg" className="navColor">
               <Container>
@@ -24,7 +22,7 @@ return (
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
       <Nav.Link className="ms-auto" href="#intro">About Me</Nav.Link>
-      <Nav.Link href="#experience">Experience</Nav.Link>
+      <Nav.Link href="#skill">Skills</Nav.Link>
       <Nav.Link href="#work">Work</Nav.Link>
       <Button variant="outline-light" >Resume</Button>
 
@@ -47,11 +45,52 @@ return (
             </section>
 
 
-            <section id="experience">
+            <section id="skill">
 
-<h1>Hello</h1>
+                    <div className = "skills">
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faReact}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faJsSquare}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faHtml5}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faCss3}/>
+
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faNpm}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faPython}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faJava}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faNodeJs}/>
+                    <FontAwesomeIcon className ='skillIcon' size= "3x" color="white" icon = {faGithub}/>
+
+
+
+                    </div>
             </section>
+            <section id="project">
+            <h1>Projects.</h1>
+            <div className="project-container">
+            
+            
+              
+            <div>
+            <Card/>
+
             </div>
+            <div>
+            <Card/>
+
+            </div>
+
+
+              
+            </div>
+            
+
+            </section>
+
+
+
+            </div>
+
+
+
 
        </div>
     

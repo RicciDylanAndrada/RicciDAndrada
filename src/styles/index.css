@@ -1,12 +1,14 @@
 h1{    color:white;
-    font-size: 4.2rem;
+    font-size: 8.2rem;
+    margin-left: 50px;
 }
 h2{
-    color:white;
+    color:#ffffff;
     font-size: 2rem;
 }
 p{
-    color:white
+    color:white;
+    margin-left: 100px;
 }
 body{
     background-color: #404040;
@@ -17,7 +19,6 @@ body{
     width: 5000px;
 }
 .intro{
-    padding:80px;
     height: 500px;
     position: relative;
     background-color: #404040;
@@ -26,17 +27,58 @@ body{
 
 }
 
-#experience{
-    background-color: white;
-    height: 500px;
+#skill{
+    background-color:#404040;
+    height: 200px;
     position: relative;
+    align-content: center;
+
+    word-spacing: 10px;
 }
 
 .body{
+    padding:80px;
+
     background-color: #404040;
     color: red;
     height: 100%;
     position: absolute;
     left: 100px;
     width: 90%;
+    font-family: 'Playfair Display', serif;
+    height: 100%;
+}
+.skillIcon{
+    margin-right: 30px;
+
+}
+.skills{
+    text-align: center;
+}
+#project{
+    background-color:#404040;
+    height: 500px;
+
+    position: relative;
+    margin: 0;
+    
+
+}
+#project h1{
+
+    font-size: 40px;
+    padding: 0;
+    left: 0;
+    width: 90%;
+    margin-left: 0;
+
+}
+.project-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    gap:80px
 }
