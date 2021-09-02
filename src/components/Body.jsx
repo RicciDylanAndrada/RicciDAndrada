@@ -7,6 +7,8 @@ import { faGithub,faFacebook,faReact,faJsSquare,faHtml5,faNpm,faPython,faJava,fa
 } from "@fortawesome/free-brands-svg-icons"
 import Card from "./Card"
 
+import Project from "../components/Projects"
+import gymSite from "../images/g.png"
 
 
 import "../styles/index.css"
@@ -64,15 +66,20 @@ return (
                     </div>
             </section>
             <section id="project">
-            <h1>Projects.</h1>
-            <div className="project-container">
-            
+            <h4><span>Feature Projects</span></h4>
+            <h2>Stuff I've Worked On</h2>
+
+            <div class="row" className="row  project-container">
             
               
-            <div>
-            <Card/>
+            <div class="project">
+            <Project
+              img={gymSite}
+            />
+            
 
             </div>
+            
             <div>
             <Card/>
 

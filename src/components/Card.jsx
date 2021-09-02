@@ -6,16 +6,29 @@ import image from "../images/gym.jpg"
 const cardStyle={
     width:"20rem"
 }
-const  Card =() =>{
+const cardTexxt={
+  height:"1px",
+  fontColor:"blacK",
+  color:"black",
+
+}
+const cardTitle={
+  fontColor:"Black",
+  color:"Black",
+  fontSize:"15px",
+   height:"5px"
+  
+
+}
+const  Card =(props) =>{
     return(
 
 
 <div class="card mb-3" style={cardStyle}>
-  <img class="card-img-top" src={image} alt="Card image cap"/>
+  <img class="card-img-top" src={props.img} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <h5 class="card-title" style={cardTitle}>Javascript Html Css</h5>
+    <p class="card-text" style={cardTexxt}></p>
   </div>
 </div>
     )

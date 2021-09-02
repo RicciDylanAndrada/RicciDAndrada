@@ -16,7 +16,6 @@ const IndexPage = () => {
 
     <Body/>
 
-    <FontAwesomeIcon  icon ={faFacebook}/>
 
     </main>
   )

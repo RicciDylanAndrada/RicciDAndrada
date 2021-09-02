@@ -2,6 +2,7 @@ import * as React from "react";
 import {Link} from "gatsby"
 import "../styles/index.css"
 import { Container,Nav,Navbar,NavDropdown,Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import navStyle from "../styles/navBar.css"
 

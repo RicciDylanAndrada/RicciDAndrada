@@ -74,11 +74,45 @@ body{
 
 }
 .project-container{
+    padding: 40px;
     display: flex;
     flex-direction: row-reverse;
     align-content: center;
     text-align: center;
     align-items: center;
     justify-content:center;
-    gap:80px
+    gap:80px;
+    
+}
+
+
+
+h4 {
+    width: 15%; 
+    text-align: center; 
+    border-bottom: 1px solid white; 
+    line-height: 0rem;
+    margin: 20px 0 40px; 
+ } 
+ h4 span { 
+     font-size: 15px;
+     color: white;
+    background:#404040; 
+    padding:10px 5px; 
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+
+}
+.info{
+    width: 150px;
+    width: 100%;
+    text-align: left;
+
+}
+.info h1{
+    text-align: center;
 }
