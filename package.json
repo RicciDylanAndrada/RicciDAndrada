@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.0.2",
+    "emailjs-com": "^3.2.0",
     "gatsby": "^3.10.2",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",

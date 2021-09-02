@@ -11,10 +11,16 @@ import Project from "../components/Projects"
 import gymSite from "../images/g.png"
 import list from "../images/calc.png"
 import Tip from "../images/tip.png"
+import Form from "../components/contactForum.jsx"
 
 
 import "../styles/index.css"
 const Body = () =>{
+
+
+  function validateForm(){
+    alert("hello")
+  }
 
 return (
  
@@ -125,7 +131,24 @@ return (
                 Contact 
               </span>
             </h4>
-            <h2>Get in Touch</h2>
+            <div class="foot">
+            <div class="row contact">     
+           
+           <div class="contactInfo col-xs-12 col-sm-12 col-md-6 col-lg-6">
+               <h2>Get in Touch</h2>
+               <h7>Have a question or want to work together?
+</h7>
+
+           </div>
+
+           <div class="form col-xs-12 col-sm-12 col-md-6 col-lg-6">
+           <Form/>    
+
+           </div>
+
+          </div>
+            </div>
+            
 
             </section>
 

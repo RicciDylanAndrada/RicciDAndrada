@@ -88,7 +88,7 @@ body{
 
 
 h4 {
-    width: 15%; 
+    width: 100%; 
     text-align: center; 
     border-bottom: 1px solid white; 
     line-height: 0rem;
@@ -125,10 +125,62 @@ h4 {
 #footer{
     background-color:#404040;
     top:100px;
-    height: 200px;
+    height: 400px;
 
     position: relative;
     margin: 0;
+    text-align: center;
     
 
+}
+h5{
+    font-size:20px;
+    color: white;
+}
+.contact{
+    text-align: center;
+    background-color: ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+
+    
+}
+#project h2{
+    text-align: center;
+}
+.contactForm{
+    width: 400px;
+    display: flex;
+    
+    
+}
+.row{
+    text-align: center;
+}
+.contactInfo{
+    margin-top: 5%;
+    width: 400px;
+
+
+}
+.contactInfo h3{
+    font-size: 15px;
+}
+.form{
+    width: 400px;
+    margin-left: 3px;
+
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sendForm input{
+    background-color: lightgray;
 }
