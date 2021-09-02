@@ -56,8 +56,8 @@ body{
     text-align: center;
 }
 #project{
-    background-color:#404040;
-    height: 500px;
+    background-color: #404040;
+    height: 1500px;
 
     position: relative;
     margin: 0;
@@ -115,4 +115,20 @@ h4 {
 }
 .info h1{
     text-align: center;
+}
+.card{
+    height:10.2rem;
+}
+.card img{
+    min-height: 100px;
+}
+#footer{
+    background-color:#404040;
+    top:100px;
+    height: 200px;
+
+    position: relative;
+    margin: 0;
+    
+
 }

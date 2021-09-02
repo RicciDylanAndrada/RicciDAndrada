@@ -9,6 +9,8 @@ import Card from "./Card"
 
 import Project from "../components/Projects"
 import gymSite from "../images/g.png"
+import list from "../images/calc.png"
+import Tip from "../images/tip.png"
 
 
 import "../styles/index.css"
@@ -65,6 +67,11 @@ return (
 
                     </div>
             </section>
+
+
+
+
+
             <section id="project">
             <h4><span>Feature Projects</span></h4>
             <h2>Stuff I've Worked On</h2>
@@ -75,20 +82,50 @@ return (
             <div class="project">
             <Project
               img={gymSite}
+              Title=" Gym Landing Site"
             />
             
 
             </div>
-            
-            <div>
-            <Card/>
 
+
+            <div class = "project">
+            <Project
+            img={list}
+            Title ="To Do List"
+            />
             </div>
+
+
+
+            <div class = "project">
+            <Project
+            img={Tip}
+            Title = "Tip Calculator "
+            />
+            </div>
+            
+            
+           
 
 
               
             </div>
             
+
+            </section>
+
+
+
+
+            <section id="footer">
+
+            <h4>
+              <span>
+                Contact 
+              </span>
+            </h4>
+            <h2>Get in Touch</h2>
 
             </section>
 

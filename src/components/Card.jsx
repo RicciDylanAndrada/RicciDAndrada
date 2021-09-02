@@ -16,7 +16,7 @@ const cardTitle={
   fontColor:"Black",
   color:"Black",
   fontSize:"15px",
-   height:"5px"
+   height:"1px"
   
 
 }
