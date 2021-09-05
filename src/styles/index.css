@@ -1,25 +1,33 @@
-h1{    color:white;
-    font-size: 8.2rem;
-    margin-left: 50px;
+.intro h1{    color:white;
+    font-size: 13.2rem;
+    margin-left: 80px;
 }
-h2{
+
+.intro h2{
     color:#ffffff;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-left: 40px;
 }
-p{
+.intro p{
     color:white;
-    margin-left: 100px;
+    margin-left: 200px;
+    line-height: 50px;
+    font-size: 1.4rem;
 }
+.linkText {
+    color: white !important;
+    }
 body{
     background-color: #404040;
-    color: red;
+    color: white;
 
 }
 .nav{
     width: 5000px;
 }
 .intro{
-    height: 500px;
+    padding: 50px;
+    height: 750px;
     position: relative;
     background-color: #404040;
 
@@ -28,10 +36,14 @@ body{
 }
 
 #skill{
+    padding: 5px;
+
     background-color:#404040;
-    height: 200px;
+    height: 400px;
+    top: 150px;
     position: relative;
     align-content: center;
+    
 
     word-spacing: 10px;
 }
@@ -40,36 +52,78 @@ body{
     padding:80px;
 
     background-color: #404040;
-    color: red;
+    color: white;
     height: 100%;
     position: absolute;
-    left: 100px;
-    width: 90%;
     font-family: 'Playfair Display', serif;
     height: 100%;
 }
 .skillIcon{
-    margin-right: 30px;
 
+}
+.skill-wrapper{
+    height: 300px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.skill-box{
+    line-height: 30px;
+    margin-left: 30px;
+    margin: 10px;
+    width: 80px;
+}
+.skill-box p{
+
+    text-align: center;
+    
 }
 .skills{
+    display: flex;
+    flex-direction: row;
     text-align: center;
+    justify-content: space-between;
+    gap: 2px;
+    width: 40%;
+    margin-left: 29.5%;
+
+    
 }
 #project{
+    padding-top: 2px;
     background-color: #404040;
     height: 1500px;
-
+top:200px;
     position: relative;
     margin: 0;
-    
+    width: ;
 
+
+}
+.project1{
+    padding-top: 2px;
+    background-color: #404040;
+    height: 1500px;
+top:200px;
+    position: relative;
+    margin: 0;
+    width: 400px;
+
+
+    
+}
+.projBody{
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: ;
 }
 #project h1{
 
     font-size: 40px;
     padding: 0;
     left: 0;
-    width: 90%;
     margin-left: 0;
 
 }
@@ -104,28 +158,35 @@ h4 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    text-align: center;
+    text-align:center;
 
 }
-.info{
-    width: 150px;
-    width: 100%;
-    text-align: left;
 
+.info{
+    
+background-color: #404040;
 }
 .info h1{
     text-align: center;
 }
+
 .card{
-    height:10.2rem;
+    height:13rem;  
+    width: 300px;
+    margin-left: 10%;
+
+      
 }
 .card img{
-    min-height: 100px;
+    min-height: 100%;
+    width: 100%;
+    
+    
 }
 #footer{
     background-color:#404040;
-    top:100px;
-    height: 400px;
+    top:400px;
+    height: 300px;
 
     position: relative;
     margin: 0;
@@ -139,7 +200,6 @@ h5{
 }
 .contact{
     text-align: center;
-    background-color: ;
     color: white;
     display: flex;
     flex-direction: row;
@@ -166,6 +226,9 @@ h5{
     width: 400px;
 
 
+}.projectImg{
+    height: 100%;
+    margin-left:50px;
 }
 .contactInfo h3{
     font-size: 15px;
@@ -184,3 +247,190 @@ h5{
 .sendForm input{
     background-color: lightgray;
 }
+.dog{
+    background-color: #404040;
+    text-align: center;
+
+    
+}
+.dog p{
+    text-align: ;
+    color: white;
+}
+.dog h1{
+    text-align: center;
+    margin-left: 30px
+}
+
+
+.sidebar{
+    background-color:#404040;
+    padding:10px;
+color: blue;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    float: left;
+    left: 0;
+    top:0;
+    display: flex;
+    
+}
+
+.sidebar1{
+    background-color:#404040;
+    padding:10px;
+color: blue;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+
+    top:60px;
+    display: flex;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:20px
+}
+.icon{
+    margin-left: 3px;
+}
+
+
+a{
+    color: purple;
+    
+}
+.socials{
+    align-items: center;
+    text-align: center;
+    right:1px;
+    margin-right:1px ;
+    flex-direction: column;
+
+    margin-top:200px;
+    line-height: 100px;
+}
+
+.form{
+    width: 400px;
+    margin-left: 3px;
+
+}
+
+@media screen and (max-width: 962px) {
+    .form{
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 40px;
+    
+
+    }
+  }
+@media screen and (max-width: 768px) {
+    #footer{
+        background-color:#404040;
+
+        
+        top:1500px;
+        height: 400px;
+        position: relative;
+        margin: 0;
+        text-align: center;
+        
+    
+    }
+    .sidebar1{
+        background-color:#404040;
+        padding:10px;
+        height: 100%;
+        width: 25px;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top:60px;
+        display: flex;
+        
+    }
+    .form{
+        width: 400px;
+        margin-left: 3px;
+        margin-top: 40px;
+    
+
+    }
+    .sidebar{
+        background-color:#404040;
+        padding:10px;
+    color: blue;
+        height: 100%;
+        width: 0px;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top:0;
+        display: flex;
+        
+    }
+    #skill{
+        top: 100px;
+    }
+    #project{
+        top:450px;
+        
+    }
+    .intro h1{    color:white;
+        font-size: 8.2rem;
+        margin-left: 80px;
+    }
+    
+    .intro h2{
+        color:#ffffff;
+        font-size: 1.3rem;
+        margin-left: 40px;
+    }
+    .intro p{
+        color:white;
+        margin-left: 200px;
+        line-height: 50px;
+        font-size: .8rem;
+    }
+   .intro{
+       height: 600px;
+   }
+   .card{
+    height:13rem;  
+    width: 300px;
+    margin-left: 25%;
+
+      
+}
+
+    }
+    
+    @media screen and (max-width: 850px) {
+        
+        .projectImg{
+            margin-left: 90px;
+        }
+        .sidebar1{
+            background-color:#404040;
+            padding:10px;
+            height: 100%;
+            width: 25px;
+            position: fixed;
+            z-index: 1;
+            right: 0;
+            top:60px;
+            display: flex;
+            
+        }
+        
+      }
+      

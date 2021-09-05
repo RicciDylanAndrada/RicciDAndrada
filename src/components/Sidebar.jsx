@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../styles/sidebar.css"
+import "../styles/index.css"
 import { Container,Nav,Navbar,NavDropdown,Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -27,9 +27,9 @@ const SideBar=()=>{
 
   <div className= "socials">
 
-        <a>    <FontAwesomeIcon inverse transform="shrink-5" color="white" icon ={faGithub}   size= "2x"/></a>
-    <a><FontAwesomeIcon  color="white" icon ={faLinkedin} transform="shrink-5"  inverse size= "2x"/></a>
-    <a>  <FontAwesomeIcon  color="white" icon ={faInstagram} transform="shrink-5 " inverse   size= "2x"/></a>
+        <a href="https://github.com/RicciDylanAndrada">    <FontAwesomeIcon inverse transform="shrink-5" color="white" icon ={faGithub}   size= "2x"/></a>
+    <a href="https://www.linkedin.com/in/riccidylanandrada/"><FontAwesomeIcon  href="https://www.linkedin.com/in/riccidylanandrada/" color="white" icon ={faLinkedin} transform="shrink-5"  inverse size= "2x"/></a>
+    <a href="https://www.instagram.com/riccidylanandrada/">  <FontAwesomeIcon  color="white" icon ={faInstagram} transform="shrink-5 " inverse   size= "2x"/></a>
 
 
 

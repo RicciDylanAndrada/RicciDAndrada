@@ -4,7 +4,6 @@ import { Container,Nav,Navbar,NavDropdown,Button, } from "react-bootstrap";
 import image from "../images/gym.jpg"
 
 const cardStyle={
-    width:"20rem"
 }
 const cardTexxt={
   height:"1px",
@@ -27,7 +26,6 @@ const  Card =(props) =>{
 <div class="card mb-3" style={cardStyle}>
   <img class="card-img-top" src={props.img} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title" style={cardTitle}>Javascript Html Css</h5>
     <p class="card-text" style={cardTexxt}></p>
   </div>
 </div>

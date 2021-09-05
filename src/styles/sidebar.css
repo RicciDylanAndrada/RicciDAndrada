@@ -14,7 +14,7 @@ color: blue;
 }
 
 .sidebar1{
-    background-color:#404040;
+    background-color:red;
     padding:10px;
 color: blue;
     height: 100%;
@@ -45,3 +45,31 @@ a{
     margin-top:200px;
     line-height: 100px;
 }
+@media screen and (max-width: 768px) {
+    .sidebar1{
+        background-color:red;
+        padding:10px;
+        height: 100%;
+        width: 50px;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top:60px;
+        display: flex;
+        
+    }
+    .sidebar{
+        background-color:red;
+        padding:10px;
+    color: blue;
+        height: 100%;
+        width: 50px;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top:0;
+        display: flex;
+        
+    }
+    
+    }
