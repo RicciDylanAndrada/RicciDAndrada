@@ -96,7 +96,7 @@ body{
 #project{
     padding-top: 2px;
     background-color: #404040;
-    height: 280%;
+    height: 330%;
 top:200px;
     position: relative;
     margin: 0;
@@ -133,7 +133,7 @@ top:200px;
     text-align: center;
     align-items: center;
     justify-content:center;
-    gap:80px;
+    gap:200px;
     
 }
 
@@ -184,7 +184,7 @@ background-color: #404040;
 #footer{
     background-color:#404040;
     top:80%;
-    height: 60%;
+    height: 80%;
 
     position: relative;
     text-align: center;
