@@ -21,7 +21,7 @@ const Project = (props)=>{
 </div>
     
             <div  class="dog col-lg-6 col-md-6 col-sm-12">
-            <h1>{props.Title}</h1>
+            <h1 class="cardTitle">{props.Title}</h1>
             <div class="projBody">
             {props.Body}
             <div class ="buttons">
