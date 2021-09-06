@@ -15,15 +15,7 @@ const SideBar=()=>{
     <div >
     <div className="sidebar">
     <Container>
-    <Navbar.Brand className="icon" bg ="light">
-      <img 
-      src={logo}
-      color="light"
-      height="7%"
-      width="500%"
-
-      />
-  </Navbar.Brand>
+    
 
   <div className= "socials">
 

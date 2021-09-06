@@ -15,6 +15,7 @@ import Form from "../components/contactForum.jsx"
 import File from "../files/RicciDylanAndrada.pdf"
 import Port from "../images/port.png"
 
+import logo from "../images/registered.png"
 
 
 import "../styles/index.css"
@@ -67,9 +68,21 @@ return (
  
             <div>
             <div class="navBar">
+            
             <Navbar collapseOnSelect expand="lg" className="navColor">
+            
               <Container>
-  
+              
+              <Navbar.Brand className="icon" bg ="light">
+      <img 
+      src={logo}
+      color="light"
+      height="7%"
+      margin-left="20px"
+      width="50x"
+
+      />
+  </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto">
