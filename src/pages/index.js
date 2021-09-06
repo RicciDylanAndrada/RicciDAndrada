@@ -12,9 +12,13 @@ const IndexPage = () => {
     <main >
     <title>RicciDylanAndrada</title>
 
-    <SideBar/>  
 
     <Body/>
+    <div class="sidebar2">
+    <SideBar/>  
+
+    </div>
+
 
 
     </main>

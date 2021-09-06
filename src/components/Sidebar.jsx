@@ -19,8 +19,8 @@ const SideBar=()=>{
       <img 
       src={logo}
       color="light"
-      height="50px"
-      width="50px"
+      height="7%"
+      width="500%"
 
       />
   </Navbar.Brand>
