@@ -96,7 +96,7 @@ body{
 #project{
     padding-top: 2px;
     background-color: #404040;
-    height: 200%;
+    height: 205%;
 top:200px;
     position: relative;
     margin: 0;
@@ -443,7 +443,7 @@ a{
 }.sidebar{
     
 
-    top:4800px;
+    top:5000px;
     height: 100px;
     width: 100%;
     background-color: black;
