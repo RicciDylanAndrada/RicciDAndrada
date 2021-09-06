@@ -482,7 +482,7 @@ a{
 }
 .form{
     width: 50%;
-    margin-left: 4%;
+    margin-left: 3%;
 }
 .contact{
     flex-direction: column;
@@ -532,7 +532,6 @@ a{
 
 }
 .cardTitle{
-    background-color: red;
 }
 #project{
     padding-top: 2px;
