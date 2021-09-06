@@ -442,7 +442,7 @@ a{
 }.sidebar{
     
 
-    top:5800px;
+    top:5100px;
     height: 100px;
     width: 100%;
     background-color: black;
@@ -527,6 +527,16 @@ a{
     width: 40%;
     margin-left: 15%;
     text-align: center;
+
+
+}
+#project{
+    padding-top: 2px;
+    background-color: #404040;
+    height: 160%;
+top:200px;
+    position: relative;
+    margin: 0;
 
 
 }
