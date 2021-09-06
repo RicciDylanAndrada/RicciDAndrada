@@ -471,7 +471,7 @@ a{
 #footer{
 
     
-    top:2000px;
+    top:1800px;
     height: 400px;
     position: relative;
     margin: 0;
@@ -539,6 +539,14 @@ top:200px;
     position: relative;
     margin: 0;
 
+
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 15%;
 
 }
 
